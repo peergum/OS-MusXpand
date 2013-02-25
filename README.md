@@ -77,8 +77,6 @@ Cheers,
 Philippe Hilger,
 Feb. 24, 2013.
 
-                                 ***
-
 Installation hints:
 ~~~~~~~~~~~~~~~~~~~
 - Look for example.com in the files and replace with your own domain
@@ -98,8 +96,8 @@ jobs.
 will need to develop that...
 
 - Good luck! :-)
+~~~~~~~~~~~~~~~~~~~
 
-                                 ***
 
 Development info:
 ~~~~~~~~~~~~~~~~~
@@ -108,3 +106,4 @@ Development info:
 - total lines (including embedded sources): 173,506
 - total number of modifications: 28,092
 - number of developers: 1
+~~~~~~~~~~~~~~~~~~~
