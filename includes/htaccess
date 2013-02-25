@@ -1,0 +1,87 @@
+RewriteEngine On
+
+
+RewriteRule ^/flash/ ~ [L] 
+
+RewriteCond %{HTTP_HOST} ^example\.com
+RewriteRule ^(.*)$	http://www.example.com/$1 [L,R=permanent] 
+
+RewriteCond %{HTTP_HOST} ^([^.]+)\.at\.example\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^([^.]+)\.art(ist)?s?\.example\.com$
+RewriteRule ^(.*)$	http://www.example.com/a/%1 [R=permanent] 
+
+RewriteCond %{HTTP_HOST} ^([^.]+)\.fans?\.example\.com$
+RewriteRule ^(.*)$	http://www.example.com/f/%1 [R=permanent] 
+
+RewriteCond %{HTTP_HOST} ^www\.example\.com
+RewriteRule ^$	/index.php 
+
+RewriteCond %{SCRIPT_FILENAME} !fb-channel.php
+RewriteCond %{SCRIPT_FILENAME} !search.php
+RewriteCond %{SCRIPT_FILENAME} !check.php
+RewriteCond %{SCRIPT_FILENAME} !walls.php
+RewriteCond %{SCRIPT_FILENAME} !messages.php
+RewriteCond %{SCRIPT_FILENAME} !fileupload.php
+RewriteCond %{SCRIPT_FILENAME} !picupload.php
+RewriteCond %{SCRIPT_FILENAME} !paypal.php
+RewriteCond %{SCRIPT_FILENAME} !stream.php
+RewriteCond %{SCRIPT_FILENAME} !fanlikes.php
+RewriteCond %{SCRIPT_FILENAME} !audioanalyzer.php
+RewriteCond %{SCRIPT_FILENAME} !sitemapgen.php
+RewriteCond %{SCRIPT_FILENAME} !bundle.php
+RewriteCond %{SCRIPT_FILENAME} !media.php
+RewriteCond %{SCRIPT_FILENAME} !links.php
+RewriteCond %{SCRIPT_FILENAME} !sitemap.php
+RewriteCond %{SCRIPT_FILENAME} !counter.php
+RewriteCond %{SCRIPT_FILENAME} !fbpics.php
+RewriteCond %{SCRIPT_FILENAME} !changeui.php
+RewriteCond %{SCRIPT_FILENAME} !favs.php
+RewriteCond %{SCRIPT_FILENAME} !play.php
+RewriteCond %{SCRIPT_FILENAME} !player.php
+RewriteCond %{SCRIPT_FILENAME} !apis.php
+RewriteCond %{SCRIPT_FILENAME} !oauth.php
+RewriteCond %{REQUEST_URI} !/ext_includes
+RewriteCond %{SCRIPT_FILENAME} ^(.*\.php)$
+RewriteRule ^(.*)$ index.php?%{QUERY_STRING}
+
+RewriteRule ^apis/([^/.]+)/?([^/.]+)?$ apis.php?a=$1&f=$2
+RewriteRule ^oauth/v1/?([^/.]+)?$ oauth.php?a=$1&%{QUERY_STRING}
+
+
+RewriteRule ^a/([a-zA-Z0-9-_.]+)$ /artists/artprof?a=$1&%{QUERY_STRING}
+RewriteRule ^f/([a-zA-Z0-9-_.]+)$ /fans/fanprof?a=$1&%{QUERY_STRING}
+RewriteRule ^m/([a-zA-Z0-9-_.]+)$ /media/medprof?a=$1&%{QUERY_STRING}
+
+#--- simple URL links ---
+# with redirect
+RewriteRule ^([^/.]+)/([^/.]+)/([^/.:]+):([^/.]+)/?$ index.php?p=$1&o=$2&a=$3&r=$4&%{QUERY_STRING}
+
+# page/option/action/section
+RewriteRule ^([^/.]+)/([^/.]+)/([^/.]+)/([^/.]+)/?$ index.php?p=$1&o=$2&a=$3&k=$4&%{QUERY_STRING}
+
+# page/option/action
+RewriteRule ^([^/.]+)/([^/.]+)/([^/.]+)/?$ index.php?p=$1&o=$2&a=$3&%{QUERY_STRING}
+
+# page/option
+RewriteRule ^([^/.]+)/([^/.]+)/?$ index.php?p=$1&o=$2&%{QUERY_STRING}
+
+# page
+RewriteRule ^([^/.]+)/?$ index.php?p=$1&%{QUERY_STRING}
+#--- simple URL links ---
+
+
+DirectoryIndex index.php index.html
+Options -Indexes
+AddType audio/mp3 mp3
+AddType audio/mp4 m4a
+AddType audio/x-wav wav
+AddType audio/x-aiff aif aiff
+AddType image/jpeg jpg
+AddType image/gif gif
+AddType image/png png
+AddType video/mpeg mpg mpeg mp4 m4v
+AddType video/quicktime qt mov
+AddType application/msword doc
+AddType audio/ogg ogg oga
+AddType video/ogg ogv 
+

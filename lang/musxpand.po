@@ -1,0 +1,1590 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: musxpand\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-15 11:28-0200\n"
+"PO-Revision-Date: 2010-11-18 21:16-0300\n"
+"Last-Translator: Philippe Hilger <philippe.hilger@gmail.com>\n"
+"Language-Team: Phil <hilgerph@yahoo.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-Basepath: pt_BR\n"
+"X-Poedit-Bookmarks: 340,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
+
+#: mx_account.php:116
+msgid "Fan or Artist?"
+msgstr "Fan ou Artista?"
+
+#: mx_account.php:121
+msgid "You uploaded media that need more information"
+msgstr "Você enviou alguma mídia e precisa definí-la"
+
+#: mx_account.php:231
+#: mx_account.php:246
+msgid "Internal"
+msgstr "Interno"
+
+#: mx_account.php:233
+#: mx_account.php:248
+msgid "Basic"
+msgstr "Básico"
+
+#: mx_account.php:236
+#: mx_account.php:251
+#: mx_account.php:487
+msgid "Location"
+msgstr "Localização"
+
+#: mx_account.php:237
+#: mx_account.php:252
+msgid "Details"
+msgstr "Detalhes"
+
+#: mx_account.php:238
+#: mx_account.php:253
+msgid "Customization"
+msgstr "Estílo"
+
+#: mx_account.php:239
+#: mx_account.php:254
+#: mx_functions.php:112
+#: mx_menus.php:88
+msgid "MusXpace"
+msgstr "MusXpace"
+
+#: mx_account.php:240
+#: mx_account.php:255
+#: mx_menus.php:115
+#: mx_menus.php:119
+#: mx_menus.php:138
+msgid "Privacy"
+msgstr "Privacidade"
+
+#: mx_account.php:262
+msgid "MusXpand ID"
+msgstr "ID MusXpand"
+
+#: mx_account.php:263
+msgid "Facebook ID"
+msgstr "ID Facebook"
+
+#: mx_account.php:264
+msgid "Status"
+msgstr "Status"
+
+#: mx_account.php:265
+msgid "Facebook Verified"
+msgstr "Verificado por Facebook"
+
+#: mx_account.php:266
+msgid "Password Hash"
+msgstr "Hash de Senha"
+
+#: mx_account.php:267
+msgid "Home Directory"
+msgstr "Diretório Pessoal"
+
+#: mx_account.php:268
+#: mx_menus.php:57
+msgid "Account Type"
+msgstr "Tipo de conta"
+
+#: mx_account.php:269
+msgid "This is important to us, at musxpand, to better serve you. Lying won't bring you any benefit..."
+msgstr "Isto é importante para nós, na MusXpand, para servir você da melhor forma possível. Mentir não lhe trará nenhum benefício..."
+
+#: mx_account.php:271
+msgid "Username"
+msgstr "Nome de usuário"
+
+#: mx_account.php:271
+msgid "A name you can use to connect"
+msgstr ""
+
+#: mx_account.php:272
+msgid "Password"
+msgstr "Senha"
+
+#: mx_account.php:272
+msgid "We recommend you to use at least 8 characters including digits and special characters. Don't use trivial passwords..."
+msgstr ""
+
+#: mx_account.php:275
+msgid "First Name"
+msgstr "Nome"
+
+#: mx_account.php:276
+msgid "Your REAL first name. Fake accounts will be deleted when discovered"
+msgstr ""
+
+#: mx_account.php:277
+msgid "Last Name"
+msgstr "Sobrenome"
+
+#: mx_account.php:278
+msgid "Your REAL family name. Fake accounts will be deleted when discovered"
+msgstr ""
+
+#: mx_account.php:279
+msgid "Full Name"
+msgstr "Nome Completo"
+
+#: mx_account.php:280
+msgid "The common way you write your name in full, or a nickname if you prefer"
+msgstr ""
+
+#: mx_account.php:281
+msgid "Gender"
+msgstr "Sexo"
+
+#: mx_account.php:282
+msgid "Well, you're not compelled to say, but everyone will want to know..."
+msgstr ""
+
+#: mx_account.php:283
+msgid "Email"
+msgstr "Email"
+
+#: mx_account.php:284
+msgid "You will have to confirm your email and it can be used to connect to musxpand"
+msgstr ""
+
+#: mx_account.php:285
+msgid "Birthdate"
+msgstr "Data de Nascimento"
+
+#: mx_account.php:285
+msgid "So that people can celebrate with you :)"
+msgstr ""
+
+#: mx_account.php:286
+#: mx_functions.php:107
+msgid "City"
+msgstr "Cidade"
+
+#: mx_account.php:286
+msgid "The city you currently live in"
+msgstr ""
+
+#: mx_account.php:287
+#: mx_functions.php:108
+msgid "State"
+msgstr "Estado"
+
+#: mx_account.php:288
+#: mx_functions.php:109
+msgid "Country"
+msgstr "País"
+
+#: mx_account.php:288
+msgid "A two letters code for your country"
+msgstr ""
+
+#: mx_account.php:289
+msgid "Time Zone"
+msgstr "Fuso horário"
+
+#: mx_account.php:290
+msgid "The positive or negative difference of hours with Greenwich (between -12 and 12)"
+msgstr ""
+
+#: mx_account.php:291
+msgid "Locale"
+msgstr "Língua"
+
+#: mx_account.php:292
+msgid "What language do you want to read musxpand in?"
+msgstr ""
+
+#: mx_account.php:293
+#: mx_menus.php:136
+msgid "About"
+msgstr "Sobre"
+
+#: mx_account.php:294
+msgid "A short description of yourself"
+msgstr "Digite uma descrição da imagem"
+
+#: mx_account.php:295
+msgid "Long Bio"
+msgstr "Biografia"
+
+#: mx_account.php:296
+msgid "Tell others your story, interests and whatever you want to share about you..."
+msgstr ""
+
+#: mx_account.php:297
+msgid "Website"
+msgstr "Site"
+
+#: mx_account.php:298
+msgid "Have you got a personal site?"
+msgstr ""
+
+#: mx_account.php:300
+msgid "Island"
+msgstr "Ilha"
+
+#: mx_account.php:300
+msgid "Your current island"
+msgstr "Ilha de Nenhum Lugar [%d almas]"
+
+#: mx_account.php:301
+msgid "Archipelago"
+msgstr "Arquipelago"
+
+#: mx_account.php:301
+msgid "Your current archipelago"
+msgstr "Pré-visualização do tema atual"
+
+#: mx_account.php:302
+msgid "Share with anyone"
+msgstr "Compartilhar com qualquer um"
+
+#: mx_account.php:303
+msgid "What can anyone see from your data?"
+msgstr ""
+
+#: mx_account.php:304
+msgid "Share with friends"
+msgstr "Compartilhar com amigos"
+
+#: mx_account.php:305
+msgid "What can your friends see from your data?"
+msgstr ""
+
+#: mx_account.php:306
+msgid "Share with artists"
+msgstr "Compartilhar com artistas"
+
+#: mx_account.php:307
+msgid "What can artists you subscribed to see from your data?"
+msgstr ""
+
+#: mx_account.php:308
+msgid "Share with fans"
+msgstr "Compartilhar com fans"
+
+#: mx_account.php:309
+msgid "What can your fans see from your data?"
+msgstr ""
+
+#: mx_account.php:310
+#: mx_functions.php:124
+msgid "Background"
+msgstr "Fundo"
+
+#: mx_account.php:311
+msgid "A browser background picture while you use musxpand"
+msgstr ""
+
+#: mx_account.php:312
+msgid "Transparency"
+msgstr "Transparencia"
+
+#: mx_account.php:313
+msgid "The level of transparency under the text on musxpand"
+msgstr ""
+
+#: mx_account.php:314
+msgid "Artist Name"
+msgstr "Nome Artistico"
+
+#: mx_account.php:315
+msgid "When creating your artist name, write it the way you want it to appear"
+msgstr ""
+
+#: mx_account.php:427
+#: mx_account.php:526
+msgid "Sign-in using Facebook worked,<br/>but your profile couldn't be created."
+msgstr "Seu login via Facebook funcionou,<br/>mas seu perfil não foi criado."
+
+#: mx_account.php:430
+#: mx_account.php:529
+msgid "Sign-in using Facebook failed."
+msgstr "O login com Facebook não deu certo."
+
+#: mx_account.php:434
+#: mx_account.php:533
+#, php-format
+msgid "Welcome back, %s. You just signed using your facebook account."
+msgstr "Bem vindo de volta, %s. Você acabou de entrar usando sua conta Facebook."
+
+#: mx_account.php:437
+#: mx_account.php:536
+#, php-format
+msgid "Welcome on board, %s"
+msgstr "Bem vindo, %s"
+
+#: mx_account.php:443
+#: mx_account.php:542
+#, php-format
+msgid "Welcome back, %s"
+msgstr "Bem vindo de volta, %s"
+
+#: mx_account.php:465
+msgid "Your account is now confirmed. Enjoy!"
+msgstr "Sua conta foi confirmada. Parabéns!"
+
+#: mx_account.php:474
+msgid "Please fill in a some information about yourself.<br/>If you already created an account, please "
+msgstr "Por favor, entre algumas informações sobre você.<br/>Se você já criou uma conta, "
+
+#: mx_account.php:476
+msgid " instead"
+msgstr " "
+
+#: mx_account.php:477
+msgid "To easily register using your facebook account, just use the Facebook button: "
+msgstr ""
+
+#: mx_account.php:479
+#: mx_account.php:552
+#: mx_account.php:661
+#: mx_account.php:737
+#: mx_account.php:788
+#: mx_account.php:837
+#: mx_account.php:853
+#: mx_account.php:930
+#: mx_account.php:964
+#: mx_account.php:1023
+#: mx_bands.php:124
+#: mx_bands.php:156
+#: mx_bands.php:181
+#: mx_help.php:51
+msgid "Submit"
+msgstr "Enviar"
+
+#: mx_account.php:479
+#: mx_account.php:552
+#: mx_account.php:737
+#: mx_account.php:788
+#: mx_account.php:837
+#: mx_account.php:853
+#: mx_account.php:930
+#: mx_account.php:964
+#: mx_account.php:1023
+#: mx_bands.php:124
+#: mx_bands.php:156
+#: mx_bands.php:181
+#: mx_help.php:51
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: mx_account.php:479
+#: mx_account.php:552
+#: mx_account.php:662
+#: mx_account.php:737
+#: mx_account.php:788
+#: mx_account.php:837
+#: mx_account.php:853
+#: mx_account.php:930
+#: mx_account.php:964
+#: mx_account.php:1023
+#: mx_bands.php:124
+#: mx_bands.php:156
+#: mx_bands.php:181
+#: mx_help.php:51
+msgid "Clear"
+msgstr "Limpar os campos"
+
+#: mx_account.php:481
+#: mx_bands.php:188
+msgid "Basic Information"
+msgstr "Informações principais"
+
+#: mx_account.php:481
+#: mx_bands.php:188
+msgid "The information you enter here will be used when you log into the site"
+msgstr "As informações entradas aqui servirão para seu login no site"
+
+#: mx_account.php:483
+msgid "Email:"
+msgstr "Email:"
+
+#: mx_account.php:484
+msgid "Username:"
+msgstr "Nome de usuário:"
+
+#: mx_account.php:485
+msgid "Your password:"
+msgstr "Sua senha:"
+
+#: mx_account.php:486
+msgid "Confirm password:"
+msgstr "Confirme a senha:"
+
+#: mx_account.php:487
+msgid "Please tell us about the place where you currently or usually live"
+msgstr "Por gentileza informe o lugar onde você mora ou costuma morar"
+
+#: mx_account.php:489
+msgid "City:"
+msgstr "Cidade:"
+
+#: mx_account.php:490
+msgid "State:"
+msgstr "Estado:"
+
+#: mx_account.php:491
+msgid "Country:"
+msgstr "País:"
+
+#: mx_account.php:507
+msgid "Your account is now confirmed."
+msgstr "Sua conta foi confirmada."
+
+#: mx_account.php:510
+msgid "Sorry, this confirmation link is inaccurate. Please check again."
+msgstr "Desculpe, esse link de confirmação está errado. Verifique novamente."
+
+#: mx_account.php:547
+#: mx_menus.php:145
+msgid "Sign In"
+msgstr "Login"
+
+#: mx_account.php:547
+#, php-format
+msgid "Please enter your credentials below.<br/>If you haven't created your account yet, please %s first..."
+msgstr "Por favor entre seus dados de autentificação abaixo.<br/>Se você ainda não criou uma conta, por gentileza %s antes..."
+
+#: mx_account.php:550
+msgid "To authentify using facebook, use the Facebook button: "
+msgstr ""
+
+#: mx_account.php:554
+msgid "Authentication"
+msgstr "Autenticação"
+
+#: mx_account.php:554
+msgid "Please fill in your registered information here"
+msgstr "Por favor, entre suas informações cadastradas aqui"
+
+#: mx_account.php:556
+msgid "Account or Email:"
+msgstr "Conta ou Email:"
+
+#: mx_account.php:557
+#: mx_bands.php:193
+msgid "Password:"
+msgstr "Senha:"
+
+#: mx_account.php:579
+msgid "Wrong credentials!"
+msgstr "Senha perdida"
+
+#: mx_account.php:597
+msgid "<p>You've just signed off. See you soon...</p>"
+msgstr "<p>Você acabou de sair. Até logo...</p>"
+
+#: mx_account.php:632
+#: mx_account.php:642
+#: mx_bands.php:96
+#: mx_bands.php:107
+#, php-format
+msgid "Edit %s Information"
+msgstr "Editar informações sobre %S"
+
+#: mx_account.php:704
+msgid "Profile is Not accessible."
+msgstr "Perfil não accessível"
+
+#: mx_account.php:724
+#: mx_account.php:748
+#, php-format
+msgid "Your account type is currently defined as: <i>%s Account</i>."
+msgstr "Sua conta é atualmente definida como: <i>Conta de %s</i>."
+
+#: mx_account.php:728
+msgid "Your account type is currently <i>undefined</i>."
+msgstr "Sua conta é atualmente de tipo <i>indeterminado</i>"
+
+#: mx_account.php:730
+msgid "Please define your Account Type"
+msgstr "Por favor, informe o tipo de sua conta"
+
+#: mx_account.php:731
+msgid "<p><b>Fan Accounts</b> will give you access to free material and allow you to become an official fan and access all past stuff and new releases from artists you will subscribe to.</p><p><b>Artist Accounts</b> allow you to upload your productions and maintain the contact with your fan base, but also to be a fan yourself.</p>"
+msgstr "<p><b>Uma Conta de Fan</b> lhe dará acesso a algumas mídias de graça e lhe permitirá virar um fan oficial e acessar todo material novo e antigo dos artistas que você assinará.</p><p><b>Uma Conta de Artista</b> lhe permitirá enviar suas produções e manter o contato com seus fans, e também ser um fan de outros artistas.</p>"
+
+#: mx_account.php:739
+msgid "Account Type Selection"
+msgstr "Seleção do tipo de conta"
+
+#: mx_account.php:739
+msgid "Who are you?"
+msgstr "Quem é você?"
+
+#: mx_account.php:740
+#: mx_account.php:778
+#: mx_account.php:936
+msgid "Type:"
+msgstr "Tipo:"
+
+#: mx_account.php:767
+#: mx_account.php:809
+msgid "No files seem to have been uploaded to your account."
+msgstr "Nenhum arquivo foi enviado para sua conta."
+
+#: mx_account.php:777
+msgid "Title:"
+msgstr "Título:"
+
+#: mx_account.php:779
+#: mx_account.php:937
+msgid "Description:"
+msgstr "Descrição:"
+
+#: mx_account.php:786
+msgid "Media Information"
+msgstr "Informação sobre a mídia"
+
+#: mx_account.php:786
+msgid "Please fill in the information about the uploaded files"
+msgstr "Por favor informe os detalhes sobre os arquivos enviados."
+
+#: mx_account.php:834
+msgid "Media List"
+msgstr "Lista de mídias"
+
+#: mx_account.php:835
+#, php-format
+msgid "If you want to upload new media, click %s."
+msgstr "Se você quiser enviar novas mídias, clique %s."
+
+#: mx_account.php:836
+msgid "here"
+msgstr "aqui"
+
+#: mx_account.php:839
+msgid "My Media"
+msgstr "Minhas mídias"
+
+#: mx_account.php:839
+msgid "Below is the list of media you uploaded into your account."
+msgstr "Abaixo consta a lista de mídias que você carregou na sua conta."
+
+#: mx_account.php:841
+msgid "Title"
+msgstr "Título"
+
+#: mx_account.php:842
+msgid "Description"
+msgstr "Descrição"
+
+#: mx_account.php:843
+msgid "Type"
+msgstr "Tipo"
+
+#: mx_account.php:844
+msgid "Info"
+msgstr "Informações"
+
+#: mx_account.php:849
+msgid "More"
+msgstr "Mais..."
+
+#: mx_account.php:852
+msgid "More Info"
+msgstr "Maiores informações"
+
+#: mx_account.php:852
+msgid "Details..."
+msgstr "Detalhes..."
+
+#: mx_account.php:855
+#: mx_account.php:932
+msgid "File Information"
+msgstr "Informação sobre o arquivo"
+
+#: mx_account.php:856
+msgid "Media:"
+msgstr "Mídia:"
+
+#: mx_account.php:857
+msgid "Size:"
+msgstr "Tamanho:"
+
+#: mx_account.php:858
+msgid "Code:"
+msgstr "Código:"
+
+#: mx_account.php:859
+msgid "Status:"
+msgstr "Status:"
+
+#: mx_account.php:886
+msgid "X"
+msgstr "X"
+
+#: mx_account.php:921
+msgid "Javascript is not currently enabled in your browser. You can enjoy a easier and simpler file uploader if you enable that feature. If you prefer, consult your manual, activate Javascript and reload this page..."
+msgstr "Javascript está atualmente desativado no seu navegador. Para poder beneficiar-se de um melhor carregador de arquivos, você deveria ativar essa funcionalidade.Se quiser fazê-lo, consulte o manual do seu navegador, ative o Javascript e atualize esta página..."
+
+#: mx_account.php:928
+msgid "Media Upload [Basic Uploader]"
+msgstr "Envio de Mídia [Carregador Simplificado]"
+
+#: mx_account.php:928
+msgid "Please fill the form below to upload new media to your account"
+msgstr "Por favor, preenche o formulário abaixo para enviar uma nova mídia para sua conta"
+
+#: mx_account.php:932
+msgid "Please describe the file you will upload"
+msgstr "Por favor, descreva o arquivo que você irá enviar"
+
+#: mx_account.php:934
+msgid "Media name:"
+msgstr "Nome da mídia:"
+
+#: mx_account.php:935
+msgid "File:"
+msgstr "Arquivo:"
+
+#: mx_account.php:938
+#: mx_account.php:972
+#: mx_bands.php:196
+msgid "Legal Bindings"
+msgstr "Contrato Legal"
+
+#: mx_account.php:938
+#: mx_account.php:972
+msgid "By clicking the box below, you hereby certify to the full extends of copyright laws that you fully own the rights on the material you are going to upload, or are legally authorized to do so. You also confirm, that you are aware that any false claim is subject to prosecution by the legal copyrights owner to whom you will directly and exclusively respond to."
+msgstr "Marcando a caixa abaixo, você certifica, conforme os termos das leis sobre propriedade intelectual e artística, que você dispõe de todos direitos sobre o material que você está enviando, ou foi legalmente autorizado a fazê-lo. Você também declara-se ciente do fato que qualquer falsa declaração o sujeitará a processos judiciais dos detentores legais dos direitos autorais para quem você responderá direitamente dos seus atos."
+
+#: mx_account.php:945
+#: mx_account.php:979
+#: mx_bands.php:202
+msgid "I Agree"
+msgstr "Eu Concordo"
+
+#: mx_account.php:961
+msgid "Media Upload [Javascript Uploader]"
+msgstr "Envio de Mídia [Carregador Javascript]"
+
+#: mx_account.php:961
+msgid "Please upload one or more files below by clicking on the Upload button or using drag-and-drop, then submit the form to fill the necessary information about the files"
+msgstr ""
+
+#: mx_account.php:966
+msgid "File Upload"
+msgstr "Enviar Arquivo"
+
+#: mx_account.php:966
+msgid "Please click the Upload button or drag-and-drop your files on it<br/>If you already uploaded files and want to validate them, just agree with the legal terms and submit the form."
+msgstr ""
+
+#: mx_account.php:970
+msgid "Previously Uploaded:"
+msgstr "Já enviado:"
+
+#: mx_account.php:971
+msgid "Files:"
+msgstr "Arquivos:"
+
+#: mx_account.php:984
+#: mx_functions.php:59
+#: mx_functions.php:131
+msgid "None"
+msgstr "Nenhuma"
+
+#: mx_account.php:1019
+msgid "Technical Information"
+msgstr "Informações Técnicas"
+
+#: mx_account.php:1019
+msgid "This section intends to help you list the details of your browsing experience here. By supplying us these details in the case of any issue, we will be able to solve your problem faster."
+msgstr ""
+
+#: mx_account.php:1025
+msgid "Browser Information"
+msgstr "Informação sobre seu Navegador"
+
+#: mx_account.php:1025
+msgid "This is the information we get about your current browser."
+msgstr ""
+
+#: mx_account.php:1027
+msgid "Name:"
+msgstr "Nome:"
+
+#: mx_account.php:1028
+msgid "Version"
+msgstr "Versão"
+
+#: mx_account.php:1029
+msgid "Platform"
+msgstr "Plataforma"
+
+#: mx_account.php:1030
+msgid "User Agent"
+msgstr "User Agent"
+
+#: mx_admin.php:37
+msgid "Database did not need updating..."
+msgstr ""
+
+#: mx_bands.php:41
+#, php-format
+msgid "There was an error with your request.<br/>Please try %s"
+msgstr ""
+
+#: mx_bands.php:43
+msgid "again"
+msgstr "Por favor, tente novamente."
+
+#: mx_bands.php:46
+#, php-format
+msgid "This band or artist is now linked to you.<br/>Continue to the %s page..."
+msgstr ""
+
+#: mx_bands.php:50
+#, php-format
+msgid "We were not able to link this band or artist to your account.<br/>Go back to the %s page..."
+msgstr ""
+
+#: mx_bands.php:56
+msgid "Form not yet handled."
+msgstr ""
+
+#: mx_bands.php:74
+msgid "Linked Accounts"
+msgstr "Contas Relacionadas"
+
+#: mx_bands.php:75
+#, php-format
+msgid "Your linked account are informed just below. If you want to create a new band account or link an existing account, just go %s%s%s..."
+msgstr "Suas contas vinculadas estão listadas abaixo. Se você quiser criar uma nova conta de banda ou vincular uma conta existente, clique %s%s%s"
+
+#: mx_bands.php:78
+msgid "there"
+msgstr "aqui"
+
+#: mx_bands.php:114
+msgid "Unlink this account"
+msgstr "Desvincular esta conta"
+
+#: mx_bands.php:115
+#, php-format
+msgid ""
+"You are going to unlink account [%s].\\n"
+"Are you sure you want to do that?\\n"
+"\\n"
+"You may need to ask a new authorization to link back if you change your mind later..."
+msgstr ""
+
+#: mx_bands.php:122
+#, php-format
+msgid "Your role in %s"
+msgstr "Seu papel em %s"
+
+#: mx_bands.php:123
+msgid "Your three main functions in the band"
+msgstr "Seus três principais papéis na banda"
+
+#: mx_bands.php:126
+msgid "Main Role:"
+msgstr "Papel Principal:"
+
+#: mx_bands.php:127
+msgid "2nd Role:"
+msgstr "2º Papel:"
+
+#: mx_bands.php:128
+msgid "3rd Role:"
+msgstr "3º Papel:"
+
+#: mx_bands.php:154
+#, php-format
+msgid "Band Information for %s"
+msgstr "Informações Sobre %s"
+
+#: mx_bands.php:155
+msgid "Find below the details about this band"
+msgstr ""
+
+#: mx_bands.php:179
+msgid "Create a Band Account"
+msgstr "Criar uma Conta de Banda"
+
+#: mx_bands.php:180
+msgid "Please fill some information about the band."
+msgstr "Por favor informe os detalhes sobre os arquivos enviados."
+
+#: mx_bands.php:183
+msgid "Hint"
+msgstr ""
+
+#: mx_bands.php:183
+#, php-format
+msgid "If you are the only member of a band, you may consider instead using your personal account as a band. Just inform your artist name in your %s, and you'll be done... "
+msgstr ""
+
+#: mx_bands.php:190
+msgid "Band name:"
+msgstr "Nome da Banda:"
+
+#: mx_bands.php:191
+msgid "When creating a band name, write it the way you want it to appear"
+msgstr ""
+
+#: mx_bands.php:192
+msgid "Band Email:"
+msgstr "Email da Banda:"
+
+#: mx_bands.php:194
+msgid "Confirm Password:"
+msgstr "Confirme a Senha:"
+
+#: mx_bands.php:194
+msgid "This password confirmation is not needed if you're just linking to an existing band"
+msgstr ""
+
+#: mx_bands.php:196
+msgid "By clicking the box below, you hereby certify to the full extends of copyright and trademark laws that you fully own the rights to use and represent the band name above. You also confirm, that you are aware that any false claim is subject to prosecution by the legal copyrights and mark owner to whom you will directly and exclusively respond to."
+msgstr ""
+
+#: mx_bands.php:202
+msgid "You have to agree to continue..."
+msgstr "Uma senha será enviada para seu email."
+
+#: mx_bands.php:216
+msgid "Wrong password!"
+msgstr "Senha perdida"
+
+#: mx_bands.php:217
+msgid "That account exists..."
+msgstr "Essa conta já existe."
+
+#: mx_bands.php:222
+msgid "Account already linked!"
+msgstr "Essa conta já está ligada à sua."
+
+#: mx_fans.php:31
+msgid "<p>Welcome to the Fans' World.</p><p>You will find here everything a fan may be looking for: friends, chats, hints, rumors. This is YOUR place, build it up the way you like!</p>"
+msgstr ""
+
+#: mx_fans.php:41
+msgid "<p>(Quick preview, will be worked on later...)</p>"
+msgstr ""
+
+#: mx_fans.php:45
+msgid "30 fans chosen at random..."
+msgstr ""
+
+#: mx_functions.php:38
+msgid "No"
+msgstr "Não"
+
+#: mx_functions.php:38
+msgid "Yes"
+msgstr "Sim"
+
+#: mx_functions.php:40
+msgid "Jan"
+msgstr "jan"
+
+#: mx_functions.php:40
+msgid "Feb"
+msgstr "fev"
+
+#: mx_functions.php:40
+msgid "Mar"
+msgstr "mar"
+
+#: mx_functions.php:40
+msgid "Apr"
+msgstr "abr"
+
+#: mx_functions.php:40
+msgid "May"
+msgstr "maio"
+
+#: mx_functions.php:40
+msgid "Jun"
+msgstr "jun"
+
+#: mx_functions.php:41
+msgid "Jul"
+msgstr "jul"
+
+#: mx_functions.php:41
+msgid "Aug"
+msgstr "ago"
+
+#: mx_functions.php:41
+msgid "Sep"
+msgstr "set"
+
+#: mx_functions.php:41
+msgid "Oct"
+msgstr "out"
+
+#: mx_functions.php:41
+msgid "Nov"
+msgstr "nov"
+
+#: mx_functions.php:41
+msgid "Dec"
+msgstr "dez"
+
+#: mx_functions.php:44
+#: mx_functions.php:307
+msgid "Unspecified"
+msgstr ""
+
+#: mx_functions.php:45
+msgid "Male"
+msgstr "Masculino"
+
+#: mx_functions.php:46
+msgid "Female"
+msgstr "Feminino"
+
+#: mx_functions.php:50
+msgid "Not yet chosen"
+msgstr "Ainda não escolhido"
+
+#: mx_functions.php:51
+msgid "Fan"
+msgstr "Fan"
+
+#: mx_functions.php:52
+msgid "Artist"
+msgstr "Artista"
+
+#: mx_functions.php:53
+msgid "Band"
+msgstr "Banda"
+
+#: mx_functions.php:54
+msgid "Manager"
+msgstr "Gerente"
+
+#: mx_functions.php:55
+msgid "Label"
+msgstr "Gravadora"
+
+#: mx_functions.php:60
+msgid "Lead Vocals"
+msgstr "Principal cantor(a)"
+
+#: mx_functions.php:61
+msgid "Vocals"
+msgstr "Cantor(a)"
+
+#: mx_functions.php:62
+msgid "Lead Guitar"
+msgstr "Guitarra ou violão principal"
+
+#: mx_functions.php:63
+msgid "Guitars"
+msgstr "Guitarras e violões"
+
+#: mx_functions.php:64
+msgid "Bass"
+msgstr "Baixo"
+
+#: mx_functions.php:65
+msgid "Keyboards"
+msgstr "Teclados"
+
+#: mx_functions.php:66
+msgid "Drums"
+msgstr "Bateria"
+
+#: mx_functions.php:67
+msgid "Percussions"
+msgstr "Percussões"
+
+#: mx_functions.php:68
+msgid "Background Vocals"
+msgstr "Acompanhamento Vocal"
+
+#: mx_functions.php:69
+msgid "Programming"
+msgstr "Programação"
+
+#: mx_functions.php:70
+msgid "Sound Engineer"
+msgstr "Engenheiro de Som"
+
+#: mx_functions.php:71
+msgid "Lights"
+msgstr "Luzes"
+
+#: mx_functions.php:72
+msgid "Make-up, Hair, Manicure"
+msgstr "Maquiagem, Cabelos, Manicure"
+
+#: mx_functions.php:73
+msgid "Clothes"
+msgstr "Roupas e Costumes"
+
+#: mx_functions.php:74
+msgid "Graphic Designs"
+msgstr "Design Gráfico"
+
+#: mx_functions.php:75
+msgid "Band Management"
+msgstr "Gerenciamento da Banda"
+
+#: mx_functions.php:76
+msgid "Label Management"
+msgstr "Gerenciamento do Label"
+
+#: mx_functions.php:77
+#: mx_menus.php:109
+#: mx_menus.php:112
+msgid "Other"
+msgstr "Outro"
+
+#: mx_functions.php:78
+msgid "All"
+msgstr "Todos"
+
+#: mx_functions.php:82
+msgid "Disabled"
+msgstr "Desativada"
+
+#: mx_functions.php:83
+msgid "Unconfirmed"
+msgstr "Não Confirmado"
+
+#: mx_functions.php:84
+msgid "Email Confirmed"
+msgstr "Email Confirmado"
+
+#: mx_functions.php:85
+msgid "Billing Confirmed"
+msgstr "Faturado"
+
+#: mx_functions.php:86
+msgid "ID Confirmed"
+msgstr "ID Confirmado"
+
+#: mx_functions.php:87
+msgid "Investor"
+msgstr "Investidor"
+
+#: mx_functions.php:88
+msgid "Trustful"
+msgstr "Pessoa de Confiança"
+
+#: mx_functions.php:92
+msgid "Uploaded"
+msgstr "Enviado"
+
+#: mx_functions.php:93
+msgid "Validated"
+msgstr "Validado"
+
+#: mx_functions.php:94
+msgid "Visible to Fans (Draft)"
+msgstr "Visível para os Fans (Rascunho)"
+
+#: mx_functions.php:95
+msgid "Visible to Fans"
+msgstr "Vísivel para os Fans"
+
+#: mx_functions.php:96
+msgid "Shared With Fans"
+msgstr "Compartilhado com os Fans"
+
+#: mx_functions.php:97
+msgid "Visible to Members"
+msgstr "Visível para os Membros"
+
+#: mx_functions.php:98
+msgid "Shared with Members"
+msgstr "Compartilhado com os Membros"
+
+#: mx_functions.php:99
+msgid "Visible to Anyone"
+msgstr "Visível para Todos"
+
+#: mx_functions.php:100
+msgid "Obsolete"
+msgstr "Obsolete"
+
+#: mx_functions.php:104
+msgid "Profile Picture"
+msgstr "Foto de Perfil"
+
+#: mx_functions.php:105
+msgid "Age"
+msgstr "Idade"
+
+#: mx_functions.php:106
+msgid "Birthday"
+msgstr "Aniversário"
+
+#: mx_functions.php:110
+msgid "Musical Taste"
+msgstr "Gostos Musicais"
+
+#: mx_functions.php:111
+#: mx_menus.php:54
+#: mx_menus.php:101
+msgid "Subscriptions"
+msgstr "Assinaturas"
+
+#: mx_functions.php:113
+msgid "Wall Posts"
+msgstr "Artigos no Mural"
+
+#: mx_functions.php:117
+msgid "Song"
+msgstr "Canção"
+
+#: mx_functions.php:118
+msgid "Instrumental"
+msgstr "Instrumental"
+
+#: mx_functions.php:119
+msgid "Video"
+msgstr "Vídeo"
+
+#: mx_functions.php:120
+msgid "Picture"
+msgstr "Foto"
+
+#: mx_functions.php:121
+msgid "Score"
+msgstr "Partitura"
+
+#: mx_functions.php:122
+msgid "Lyrics"
+msgstr "Letra"
+
+#: mx_functions.php:123
+msgid "Letter"
+msgstr "Letra"
+
+#: mx_functions.php:125
+msgid "Demo/Draft (incomplete)"
+msgstr "Demo/Rascunho (incompleto)"
+
+#: mx_functions.php:126
+msgid "Demo/Draft (complete)"
+msgstr "Demo/Rascunho (completo)"
+
+#: mx_functions.php:127
+msgid "Other Text Document"
+msgstr "Outro Texto"
+
+#: mx_functions.php:132
+msgid "10%"
+msgstr "10%"
+
+#: mx_functions.php:133
+msgid "25%"
+msgstr "25%"
+
+#: mx_functions.php:134
+msgid "50%"
+msgstr "50%"
+
+#: mx_functions.php:138
+msgid "English"
+msgstr ""
+
+#: mx_functions.php:139
+msgid "French"
+msgstr ""
+
+#: mx_functions.php:140
+msgid "Portuguese"
+msgstr ""
+
+#: mx_functions.php:288
+msgid "Undefined"
+msgstr "Indeterminado"
+
+#: mx_functions.php:294
+msgid "generated"
+msgstr "gerado"
+
+#: mx_functions.php:345
+#, php-format
+msgid "Nowhere Island [%d souls]"
+msgstr "Ilha de Nenhum Lugar [%d almas]"
+
+#: mx_functions.php:349
+#, php-format
+msgid "Middle Of The Sea [%d souls]"
+msgstr "Meio do Mar [%d almas]"
+
+#: mx_functions.php:397
+msgid "Standard"
+msgstr "Padrão"
+
+#: mx_functions.php:796
+msgid "Important Message from MusXpand"
+msgstr "Mensagem importante de MusXpand"
+
+#: mx_functions.php:797
+#, php-format
+msgid ""
+"Dear %s,\n"
+"\n"
+"Congratulations for opening an account on MusXpand. We sincerely hope you will have a great time with us and will consider us your new virtual family.\n"
+"\n"
+"In order for you to be able to access your account without Facebook -or in the event Facebook would not be accessible- we generated a new password for you, that you can use on our sign-in page along with either your email address or the username you will choose.\n"
+"\n"
+"Your new password is: %s (8 characters)\n"
+"\n"
+"You should change this password to something easier for you to remember, but you will always be able to generate a new password later on, in the case you forget this one and lose this email.\n"
+"\n"
+"Anyway, if you ever encounter difficulties logging into your MusXpand account, please contact us at %s.\n"
+"\n"
+"A big thank you, and welcome to our brand new world!"
+msgstr ""
+
+#: mx_functions.php:863
+msgid "(This page will be translated to your language soon)"
+msgstr ""
+
+#: mx_functions.php:880
+msgid "Search"
+msgstr "Pesquisar"
+
+#: mx_help.php:34
+msgid "<p>This page is the site central assistance page.</p>"
+msgstr ""
+
+#: mx_help.php:35
+msgid "<p>Please select the specific help section you need by clicking on the top menu</p>"
+msgstr ""
+
+#: mx_help.php:36
+msgid "<p>Thank you.</p>"
+msgstr "<p>Obrigado.</p>"
+
+#: mx_help.php:41
+msgid "<p>This page should tell you what is musXpand and how it works...</p>"
+msgstr ""
+
+#: mx_help.php:42
+msgid "<p>To be completed... by men of good will and a few lawyers ;)</p>"
+msgstr ""
+
+#: mx_help.php:50
+msgid "Some information about MusXpand..."
+msgstr "Por favor informe os detalhes sobre os arquivos enviados."
+
+#: mx_help.php:53
+msgid "Version Information"
+msgstr "Informação de conexão"
+
+#: mx_help.php:53
+msgid "About current version of MusXpand Software"
+msgstr ""
+
+#: mx_help.php:54
+msgid "Version:"
+msgstr "Versão:"
+
+#: mx_help.php:55
+msgid "Codinoma:"
+msgstr ""
+
+#: mx_help.php:56
+msgid "Release:"
+msgstr "Data de criação"
+
+#: mx_help.php:57
+msgid "Release Date:"
+msgstr "Data de criação"
+
+#: mx_help.php:58
+msgid "Code Lines:"
+msgstr "Exemplo de código"
+
+#: mx_help.php:59
+msgid "Hosting"
+msgstr ""
+
+#: mx_help.php:59
+msgid "What's behind?"
+msgstr "O que isso faz:"
+
+#: mx_help.php:60
+msgid "Server Location:"
+msgstr "Servidor de Email"
+
+#: mx_help.php:61
+msgid "System:"
+msgstr "destino predefinido de sistema: %s\n"
+
+#: mx_help.php:62
+msgid "Processor(s):"
+msgstr ""
+
+#: mx_help.php:63
+msgid "Server:"
+msgstr "Servidor de Email"
+
+#: mx_help.php:64
+msgid "PHP Version:"
+msgstr "Importar da Versão 1.x"
+
+#: mx_help.php:65
+msgid "Project Information"
+msgstr "Informação de conexão"
+
+#: mx_help.php:65
+msgid "The MusXpand Development Facts"
+msgstr "Blog de desenvolvimento do WordPress"
+
+#: mx_help.php:66
+msgid "Started:"
+msgstr "Servidor iniciado"
+
+#: mx_help.php:67
+msgid "Developer:"
+msgstr "Programador vazio!"
+
+#: mx_help.php:68
+msgid "Local/Remote Beta-Testers:"
+msgstr ""
+
+#: mx_help.php:69
+msgid "Hardware:"
+msgstr ""
+
+#: mx_help.php:70
+msgid "Software:"
+msgstr "Sobre o software"
+
+#: mx_help.php:71
+msgid "Tests:"
+msgstr ""
+
+#: mx_media.php:33
+msgid "We're currently working on that part...<br/>Here you will be able to confer your existing subscriptions, with values, expiry dates, special notes, etc...<br/><br/>The contents you have exclusive access to will be available under the \"Exclusive Media\" section.<br/>Contents accessible to all will be listed under the \"Public Media\" section."
+msgstr ""
+
+#: mx_menus.php:38
+#: templates/default/index.php:44
+msgid "Home"
+msgstr "Início"
+
+#: mx_menus.php:40
+msgid "What is MusXpand?"
+msgstr "O que é MusXpand"
+
+#: mx_menus.php:41
+#: mx_menus.php:62
+#: mx_menus.php:102
+#: mx_menus.php:110
+msgid "Fans"
+msgstr "Fans"
+
+#: mx_menus.php:42
+#: mx_menus.php:69
+#: mx_menus.php:103
+#: mx_menus.php:111
+msgid "Artists"
+msgstr "Artistas"
+
+#: mx_menus.php:45
+#: mx_menus.php:99
+#: mx_menus.php:100
+msgid "Accounts"
+msgstr "Contas"
+
+#: mx_menus.php:47
+msgid "Signin"
+msgstr "Entrar"
+
+#: mx_menus.php:48
+#: mx_menus.php:107
+msgid "Register"
+msgstr "Registrar-se"
+
+#: mx_menus.php:49
+msgid "Profile"
+msgstr "Perfil"
+
+#: mx_menus.php:50
+#: mx_menus.php:81
+msgid "My Stuff"
+msgstr "Minhas Coisas"
+
+#: mx_menus.php:51
+msgid "My Bands"
+msgstr "Minhas Bandas"
+
+#: mx_menus.php:52
+msgid "Wall"
+msgstr "Mural"
+
+#: mx_menus.php:53
+#: mx_menus.php:148
+msgid "Messages"
+msgstr "Mensagens"
+
+#: mx_menus.php:55
+#: mx_menus.php:146
+msgid "Friends"
+msgstr "Amigos"
+
+#: mx_menus.php:56
+#: mx_menus.php:90
+msgid "My MusXpace"
+msgstr "Meu MusXpace"
+
+#: mx_menus.php:58
+msgid "Logout"
+msgstr "Sair"
+
+#: mx_menus.php:59
+msgid "View Profile"
+msgstr "Visualisar perfil"
+
+#: mx_menus.php:64
+#: mx_menus.php:74
+#: mx_menus.php:91
+msgid "Directory"
+msgstr "Pasta"
+
+#: mx_menus.php:65
+#: mx_menus.php:75
+msgid "Charts"
+msgstr "Charts"
+
+#: mx_menus.php:66
+#: mx_menus.php:76
+msgid "Featured"
+msgstr "Destaques"
+
+#: mx_menus.php:71
+#: mx_menus.php:147
+msgid "Music"
+msgstr "Música"
+
+#: mx_menus.php:72
+#: mx_menus.php:79
+#: mx_menus.php:105
+msgid "Media"
+msgstr "Mídia"
+
+#: mx_menus.php:73
+msgid "News"
+msgstr "Notícias"
+
+#: mx_menus.php:82
+msgid "My Subscriptions"
+msgstr "Minhas Assinaturas"
+
+#: mx_menus.php:83
+msgid "Public"
+msgstr "Público"
+
+#: mx_menus.php:84
+msgid "Member Only"
+msgstr "Somente Membros"
+
+#: mx_menus.php:85
+msgid "Fan Only"
+msgstr "Somente Fans"
+
+#: mx_menus.php:92
+msgid "3D Vision"
+msgstr "Visão 3D"
+
+#: mx_menus.php:95
+#: mx_menus.php:140
+#: mx_menus.php:153
+msgid "Help"
+msgstr "Ajuda"
+
+#: mx_menus.php:97
+#: mx_menus.php:113
+#: mx_menus.php:117
+msgid "MusXpand"
+msgstr "MusXpand"
+
+#: mx_menus.php:104
+#: mx_menus.php:123
+msgid "Main Page"
+msgstr "Página Principal (sem mãe)"
+
+#: mx_menus.php:106
+msgid "Sign-in"
+msgstr "Entrar"
+
+#: mx_menus.php:108
+msgid "FAQ"
+msgstr "Perguntas Frequentes"
+
+#: mx_menus.php:114
+#: mx_menus.php:118
+#: mx_menus.php:137
+msgid "Terms"
+msgstr "Termos"
+
+#: mx_menus.php:116
+#: mx_menus.php:120
+#: mx_menus.php:139
+msgid "Investors"
+msgstr "Investidores"
+
+#: mx_menus.php:121
+msgid "Technical Info"
+msgstr "Informações Técnicas"
+
+#: mx_menus.php:122
+msgid "MusXpand Version"
+msgstr "Importar da Versão 1.x"
+
+#: mx_menus.php:126
+msgid "Search Results"
+msgstr "Resultados da pesquisa"
+
+#: mx_menus.php:127
+msgid "Error"
+msgstr "Erro"
+
+#: mx_menus.php:128
+msgid "Admin"
+msgstr "Administração"
+
+#: mx_menus.php:130
+msgid "DB Upgrade"
+msgstr "Atualizar Base de Dados"
+
+#: mx_menus.php:149
+msgid "Sign Off"
+msgstr "Sair"
+
+#: mx_musxpace.php:36
+msgid "<p>To be done.</p>"
+msgstr "<p>A fazer.</p>"
+
+#: mx_page.php:74
+msgid "You must agree with the legal terms before submitting"
+msgstr "Você deve concordar com o contrato legal para continuar"
+
+#: mx_page.php:160
+msgid "<p>You tried to access a page that does not exist on MusXpand, that was moved away or that you are simply not allowed access to.</p>"
+msgstr ""
+
+#: mx_page.php:162
+#, php-format
+msgid "<p>If necessary, please contact our support at %s.</p>"
+msgstr ""
+
+#: mx_page.php:163
+msgid "Thank you."
+msgstr "<p>Obrigado.</p>"
+

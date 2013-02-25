@@ -1,0 +1,11 @@
+#!/bin/bash
+
+>lang/musxpand.po
+
+find . -name '*.php' -print|
+while read a; do
+echo 'Analyzing '$a'...'
+xgettext --force-po -j --package-name='musxpand' --from-code=UTF-8 -LPHP -k_ -k__ -o musxpand.po -p lang/ $a
+done
+
+

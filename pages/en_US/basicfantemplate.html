@@ -1,0 +1,173 @@
+<style>
+.artisttmpl1 fieldset {
+	background: url('{BACKGROUND}') top repeat;
+	{BACKGROUNDSIZE}
+	}
+.artisttmpl1 table.text {
+	background: url('{YELLOWBG}') repeat;
+	//opacity: {OPACITY};
+	//filter: alpha(opacity = {OPACITY100});
+	}
+</style>
+<div class="artisttmpl1" itemscope itemtype="http://schema.org/Person/Fan">
+{TABS}
+{TAB:GENERAL}
+<table class="text">
+<tr style="line-height: 0px;">
+<td width="35%">&nbsp;</td>
+<td width="40%">&nbsp;</td>
+<td width="25%">&nbsp;</td>
+</tr>
+<tr>
+<td rowspan="3" class="fanpic">{FANPIC}<br/>
+{USERSHARE}
+<div class="qrcode">{QRCODEFAN}</div>
+</td>
+<td colspan="2" class="middlecolumn"><h1 itemprop="name">{NAME}</h1>
+<div class="location" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">{LOCATION}</div>
+</td></tr>
+<tr>
+<td class="friendship" colspan="2"><div class="friendship">
+{BEFRIEND}
+</div>
+</td>
+</tr>
+<tr>
+<td class="about" colspan="2" itemprop="jobTitle">
+"{ABOUT}"
+</td>
+</tr>
+<tr><td class="sociallikes" colspan="3">
+<div class="sociallikes">{FANFACELIKE}</div>
+<div class="sociallikes">{FANPLUSONE}</div>
+</td></tr>
+<tr><td class="faninfo" colspan="2">
+<h2>Info</h2>
+<p><table class="pagedesc"><tr><td>
+[b]Identity[/b]: {FULLNAME}<br/>
+[b]Gender[/b]: <span itemprop="gender">{GENDER}</span>
+</td><td class="leftsep">
+[b]Birthday[/b]: {BDAY}<br/>
+[b]Age[/b]: {AGE}
+</td></tr></table></p>
+</td><td rowspan="2" class="stats">
+{FANSTATS}
+</td></tr>
+<tr><td colspan="2">
+<h2>Musical Tastes</h2>
+<p>{TASTES}</p>
+</td></tr>
+<tr><td colspan="2">
+<h2>Bio</h2>
+<p itemprop="description">
+{BIO}
+</p>
+</td></tr>
+<tr><td colspan="3">
+<h2>Contact</h2>
+<p>
+[b]Website:[/b] {WEBSITE}<br/>
+[b]E-Mail:[/b] <span itemprop="email">{EMAIL}</span>
+</p>
+</td></tr>
+<tr><td colspan="3">
+<p class="lastseen">Last Seen on MusXpand: {LASTSEEN}</p>
+</td></tr>
+</table>
+{/TAB}
+{TAB:WALL}
+<table class="text">
+<tr><td>
+<h2>Wall</h2>
+<p>
+{WALL}
+</p>
+</td></tr>
+</table>
+{/TAB}
+{TAB:FRIENDS}
+<table class="text">
+<tr><td>
+<h2>Friends</h2>
+<p>
+{FRIENDS}
+</p>
+</td></tr>
+</table>
+{/TAB}
+{TAB:MYREVIEWS}
+<table class="text">
+<tr><td>
+<h2>My Reviews</h2>
+<p>
+{MYREVIEWS}
+</p>
+</td></tr>
+</table>
+{/TAB}
+{TAB:*SUBSCRIBERS}
+<table class="text">
+<tr><td>
+<h2>Fans</h2>
+<p>
+{SUBSCRIBERS}
+</p>
+</td></tr>
+</table>
+{/TAB}
+{TAB:*LIKERS}
+<table class="text">
+<tr><td>
+<h2>Likers</h2>
+<p>
+{LIKERS}
+</p>
+</td></tr>
+</table>
+{/TAB}
+{TAB:SUBSCRIPTIONS}
+<table class="text">
+<tr><td>
+<h2>Fanships</h2>
+<p>
+{SUBSCRIPTIONS}
+</p>
+</td></tr>
+</table>
+{/TAB}
+{TAB:LIKES}
+<table class="text">
+<tr><td>
+<h2>Likes</h2>
+<p>
+{LIKES}
+</p>
+</td></tr>
+</table>
+{/TAB}
+{TAB:SHARE}
+<table class="text">
+<tr><td>
+<h2>Share</h2>
+<p>
+Easy links to this <b>Fan</b> page:
+{FANLINKS}
+</p>
+<p>
+{SHAREFAN}
+</p>
+</td></tr>
+</table>
+{/TAB}
+{TAB:+RESTRICTED}
+<table class="text">
+<tr><td>
+<h2>Restricted</h2>
+<p>
+{MYSTATS}
+</p>
+</td></tr>
+</table>
+{/TAB}
+{/TABS}
+</div>

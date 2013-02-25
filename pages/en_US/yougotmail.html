@@ -1,0 +1,72 @@
+<html>
+<head>
+<style>
+body {
+	text-align:center;
+	background:white;
+	}
+div.notification {
+	background:#f2f2f2;
+	width:95%;
+	max-width:480px;
+	padding:10px 20px;
+	border:#ccc 1px inset;
+	text-align:justify;
+	margin:auto;
+	-webkit-box-shadow: black 1px 1px 3px;
+	-moz-box-shadow: black 1px 1px 3px;
+	color:black;
+	}
+div.message {
+	background:#ccc;
+	width:auto;
+	max-width:400px;
+	padding:10px;
+	-webkit-box-shadow: black 1px 1px 5px;
+	-moz-box-shadow: black 1px 1px 5px;
+	text-align:left;
+	margin:10px auto;
+	overflow:auto;
+	color:white;
+	text-shadow: black 0px 0px 2px;
+	}
+img {
+	width:30%;
+	float:left;
+	padding:2px;
+	margin:0 5px 5px 0;
+	border:#ccc 1px inset;
+	background:#white;
+	}
+div.policy {
+	margin-top:20px;
+	font-size:8pt;
+	border-top:#ccc 1px inset;
+	padding-top:5px;
+	text-align:justify;
+	display:block;
+	}	
+</style>
+</head>
+<body>
+<div class="notification">
+{GUITARLOGO}
+<br/>
+Hey {RECEIVER}!<br/>
+<br/>
+You've got a new {MESSAGETYPE} from {SENDER}:<br/>
+<div class="message">
+{MESSAGE}<br/>
+</div>
+Visit {MESSAGEACTION} to reply or take any other action<br/>
+<div class="policy">
+<b><u>MusXpand Anti-SPAM Policy:</u></b><br/>
+This email is no SPAM. It has been sent to you by MusXpand,'
+according to the Notification Settings for your account. If you'
+would like not to receive this kind of notifications anymore, please'
+follow the link below to update your account's configuration:<br/>
+{NOTIFYURL}
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<style>
+.artisttmpl1 fieldset {
+	background: url('{BACKGROUND}') top repeat;
+	{BACKGROUNDSIZE}
+	}
+.artisttmpl1 table.text {
+	background: url('{WHITEBG}') repeat;
+	//opacity: {OPACITY};
+	//filter: alpha(opacity = {OPACITY100});
+	}
+</style>
+<div class="artisttmpl1">
+{TABS}
+{TAB:MEDIA}
+<table class="text"><tr><td colspan="3">
+<h2>{MEDIA_TITLE} <span class="byartistname">by {ARTISTNAME}</span></h2>
+<div class="media">
+<table class="pubmed"><tr><td class="pubmed_mediadata" {MEDIASCHEMA}>
+<table><tr>
+<td class="bundleleft">
+<div class="bundlemainpic">{MEDIA_PIC}</div>
+{BUYTAG}
+{BUYMEDIA}
+{MEDIASHARE}
+</td>
+<td class="bundleright">
+{ARTISTBUTTON}
+{MEDIA_BUTTONS}
+<div class="bundledetails">
+<div class="bundletitle" itemprop="name">{MEDIA_TITLE}</div>
+<div class="bundledesc" itemprop="description">{MEDIA_DESC}</div>
+{MEDIAMETA}
+<div class="bundledmedia">
+{MEDIA_CONTENT}
+</div>
+</td>
+</tr></table>
+</td></tr></table>
+</div>
+</td></tr>
+</table>
+{/TAB}
+{/TABS}
+</div>

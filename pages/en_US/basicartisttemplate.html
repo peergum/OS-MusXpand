@@ -1,0 +1,208 @@
+<style>
+.artisttmpl1 fieldset {
+	background: url('{BACKGROUND}') top repeat;
+	{BACKGROUNDSIZE} 
+	}
+.artisttmpl1 table.text {
+	background: url('{WHITEBG}') repeat;
+	//opacity: {OPACITY};
+	//filter: alpha(opacity = {OPACITY100});
+	}
+</style>
+<div class="artisttmpl1" itemscope itemtype="http://schema.org/MusicGroup">
+{TABS}
+{TAB:MEDIA}
+<table class="text">
+<tr style="line-height: 0px;">
+<td width="35%">&nbsp;</td>
+<td width="40%">&nbsp;</td>
+<td width="25%">&nbsp;</td>
+</tr>
+<tr class="artistinfo">
+<td rowspan="3" class="artistpic">{ARTISTPIC}<br/>
+{USERSHARE}</td>
+<td colspan="2" class="middlecolumn"><h1 itemprop="name">{ARTISTNAME}</h1>
+<div class="location" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">{LOCATION}</div>
+<div class="love">{ILOVE}</div>
+</td></tr>
+<tr class="artistinfo">
+<td class="subscribe" colspan="2">
+<div class="subscribe">
+{SUBSCRIBE}
+</div>
+</td>
+</tr>
+<tr class="artistinfo">
+<td class="about" colspan="2">
+"<span xitemprop="jobTitle">{ABOUT}</span>"
+</td>
+</tr>
+<tr><td class="sociallikes" colspan="3">
+<div class="sociallikes">{FACELIKE}</div>
+<div class="sociallikes">{PLUSONE}</div>
+</td></tr><tr><td colspan="3">
+<h2>Released Media</h2>
+<p>
+{MEDIA}</p>
+</td></tr>
+<tr><td colspan="3">
+<p class="lastseen">[b]Last Seen on MusXpand:[/b] {LASTSEEN}</p>
+</td></tr>
+</table>
+{/TAB}
+{TAB:GENERAL}
+<table class="text">
+<tr><td class="artistinfo" colspan="2">
+<h2>Info</h2>
+<p><table class="pagedesc"><tr><td>
+[b]Identity[/b]: {FULLNAME}<br/>
+[b]Gender[/b]: <span xitemprop="gender">{GENDER}</span>
+</td><td class="leftsep">
+[b]Birthday[/b]: {BDAY}<br/>
+[b]Age[/b]: {AGE}
+</td></tr></table></p>
+</td>
+<td rowspan="3" class="stats">
+{ARTISTPIC}
+<br/><br/>
+{STATS}
+</td></tr>
+<tr><td colspan="2">
+<h2>Musical Styles</h2>
+<div class="qrcode"><div>{QRCODE}</div></div>
+<p>{STYLES}</p>
+</td></tr>
+<tr><td colspan="2">
+<h2>Bio</h2>
+<p itemprop="description">
+{BIO}
+</p>
+</td></tr>
+<tr><td colspan="2">
+<h2>Contact</h2>
+<p>
+[b]Website:[/b] {WEBSITE}<br/>
+[b]E-Mail:[/b] <span itemprop="email">{EMAIL}</span>
+</p>
+</td></tr>
+<tr><td colspan="3">
+<p class="lastseen">[b]Last Seen on MusXpand:[/b] {LASTSEEN}</p>
+</td></tr>
+</table>
+{/TAB}
+{TAB:WALL}
+<table class="text">
+<tr><td>
+<h2>Wall</h2>
+<p>
+{WALL}
+</p>
+</td></tr>
+</table>
+{/TAB}
+{TAB:*SHOWS}
+<table class="text">
+<tr><td>
+<h2>Shows</h2>
+<p>
+{SHOWS}
+</p>
+</td></tr>
+</table>
+{/TAB}
+{TAB:REVIEWS}
+<table class="text">
+<tr><td>
+<h2>Reviews</h2>
+<p>
+{REVIEWS}
+</p>
+</td></tr>
+</table>
+{/TAB}
+{TAB:*MENTIONS}
+<table class="text">
+<tr><td>
+<h2>Mentions</h2>
+<p>
+{MENTIONS}
+</p>
+</td></tr>
+</table>
+{/TAB}
+{TAB:*CHATS}
+<table class="text">
+<tr><td>
+<h2>Chats</h2>
+<p>
+{CHATS}
+</p>
+</td></tr>
+</table>
+{/TAB}
+{TAB:SUBSCRIBERS}
+<table class="text">
+<tr><td>
+<h2>Fans</h2>
+<p>
+{SUBSCRIBERS}
+</p>
+</td></tr>
+</table>
+{/TAB}
+{TAB:LIKERS}
+<table class="text">
+<tr><td>
+<h2>Likers</h2>
+<p>
+{LIKERS}
+</p>
+</td></tr>
+</table>
+{/TAB}
+{TAB:SUBSCRIPTIONS}
+<table class="text">
+<tr><td>
+<h2>Fanships</h2>
+<p>
+{SUBSCRIPTIONS}
+</p>
+</td></tr>
+</table>
+{/TAB}
+{TAB:LIKES}
+<table class="text">
+<tr><td>
+<h2>Likes</h2>
+<p>
+{LIKES}
+</p>
+</td></tr>
+</table>
+{/TAB}
+{TAB:+SHARE}
+<table class="text">
+<tr><td>
+<h2>Share</h2>
+<p>
+Easy links to your <b>Artist</b> page:
+{ARTLINKS}
+</p>
+<p>
+{SHARE}
+</p>
+</td></tr>
+</table>
+{/TAB}
+{TAB:+RESTRICTED}
+<table class="text">
+<tr><td>
+<h2>Restricted</h2>
+<p>
+{MYSTATS}
+</p>
+</td></tr>
+</table>
+{/TAB}
+{/TABS}
+</div>
