@@ -39,9 +39,8 @@ now.
 
 It's important to note the MusXpand sources are released AS-IS. 
 
-What this means is that although MusXpand is a fully functional project (visit
-http://www.musxpand.com if you want to give it a try) I had to remove some
-information from the code (keys, secrets, etc...) along with some pictures and
+What this means is that although MusXpand is a fully functional project. I had to
+remove some information from the code (keys, secrets, etc...) along with some pictures and
 logos.
 
 "MusXpand" is also a TRADEMARK I registered in 2010 in the United States and in
